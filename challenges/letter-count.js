@@ -29,5 +29,28 @@
     ```
 
 */
+var letterCount = {};
+var count = 0;
+var letterCount = function(stringToSplit) {
+  var letterArray = stringToSplit.split('');
+  console.log(letterArray);
+  for (var i = 0; i < letterArray.length; i++) {
+      if (letterArray[i] == letterArray[i+1]) {
+        return count++;
+        letterCount.push(indexOf.letterArray[i], count);
+      }
+  }
+}
 
-// YOUR CODE HERE
+// var sortedArray = letterArray.sort();
+// for (var i = 0; i < letterArray.length; i++){
+//
+// }
+
+// function letterCount(string, char) {
+//   var countMatches = str.match(/abc/g).length;
+//   console.log(countMatches);
+// }
+
+
+// var countMatches = str.match(alphabet.js).length;
