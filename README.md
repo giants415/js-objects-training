@@ -1,3 +1,7 @@
+##Reflection:
+
+This was the most challenging assignment yet for me and I spent a lot of time working on the "Letter Count" challenge before looking at the solution to see that the nested for loops I was trying to make was incredibly inefficient/convoluted compared to use the forEach method. I still need to review the rest of the exercises in order to fully understand how I would complete them on my own but I worked through them by typing out the solutions in order to gain insight into how to use the methods we've learned.
+
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Javascript Objects - Problem Set
 
 * Please **Fork & Clone** this repo.
