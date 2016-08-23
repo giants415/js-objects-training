@@ -29,18 +29,43 @@
     ```
 
 */
-var letterCount = {};
-var count = 0;
+// var count = 0;
 var letterCount = function(stringToSplit) {
+  var letters = {};
   var letterArray = stringToSplit.split('');
-  console.log(letterArray);
-  for (var i = 0; i < letterArray.length; i++) {
-      if (letterArray[i] == letterArray[i+1]) {
-        return count++;
-        letterCount.push(indexOf.letterArray[i], count);
-      }
-  }
+  letterArray.forEach(function(el) {
+    if (letters[el]) {
+      letters[el]++;
+    } else {
+      letters[el] = 1;
+    }
+  });
+  return letters;
 }
+
+
+
+
+
+
+
+
+//   for (var i = 0; i < letterArray.length; i++) {
+//     for (var j = 0; j < letterArray.length - 1; j++) {
+//       if (letterArray[i] == letterArray[j+1]) {
+//         letters++;
+//       } else {
+//         letters = 1;
+//       }
+//     }
+//   };
+//   return letters;
+// } Great idea but too difficult to implement
+
+
+// return letters (or whatever my object is that stores my counts)
+// the letters will be my keys
+
 
 // var sortedArray = letterArray.sort();
 // for (var i = 0; i < letterArray.length; i++){
